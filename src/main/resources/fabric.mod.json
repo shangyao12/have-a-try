@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "aichatbuddy",
+  "version": "${version}",
+  "name": "AI Chat Buddy",
+  "description": "在 Minecraft 里接入大语言模型，玩家输入 !ai 即可和 AI 对话。支持 DeepSeek、OpenAI、本地 Ollama 等 OpenAI 兼容 API。",
+  "authors": [
+    "shangyao12"
+  ],
+  "contact": {
+    "homepage": "https://github.com/shangyao12/have-a-try",
+    "sources": "https://github.com/shangyao12/have-a-try"
+  },
+  "license": "MIT",
+  "icon": "assets/aichatbuddy/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "io.github.shangyao12.aichat.AiChatMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
